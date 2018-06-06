@@ -16,12 +16,15 @@ you a more efficient style sheet author.
 Current build status
 ====================
 
-All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/bourbon-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/bourbon-feedstock)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/bourbon-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/bourbon-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/bourbon/badges/version.svg)](https://anaconda.org/conda-forge/bourbon)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/bourbon/badges/downloads.svg)](https://anaconda.org/conda-forge/bourbon)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-bourbon-green.svg)](https://anaconda.org/conda-forge/bourbon) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/bourbon.svg)](https://anaconda.org/conda-forge/bourbon) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/bourbon.svg)](https://anaconda.org/conda-forge/bourbon) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/bourbon.svg)](https://anaconda.org/conda-forge/bourbon) |
 
 Installing bourbon
 ==================
