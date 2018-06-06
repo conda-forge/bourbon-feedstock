@@ -1,6 +1,6 @@
 {% set name = "bourbon" %}
-{% set version = "4.3.4" %}
-{% set sha256 = "808870a6d8cea200763011634b1e2a7ef8798c932470aeb97c7cb1ffc770086e" %}
+{% set version = "5.0.0" %}
+{% set sha256 = "34f3a180c6a867dc626f22d009141e12c8162d507f8fbdc6ce52e99106c49fa2" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,9 @@ source:
 build:
   number: 0
   noarch: generic
-  script: npm install -g .
+   script: |
+    tgz=$(npm pack)
+    npm install -g $tgz
 
 requirements:
   build:
