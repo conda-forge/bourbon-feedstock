@@ -1,6 +1,6 @@
 {% set name = "bourbon" %}
-{% set version = "5.0.1" %}
-{% set sha256 = "4deead88ccd02233f5e513fe673f89a0099ee61f30418f6367861c8d0ec9dcf5" %}
+{% set version = "5.1.0" %}
+{% set sha256 = "cbbd10aa519c05b590cfd2cc150cf689a992b8baae1b484ff9e9d5524a2eb0f9" %}
 
 package:
   name: {{ name|lower }}
